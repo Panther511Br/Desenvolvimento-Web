@@ -1,0 +1,45 @@
+body {
+    background-color: #fffdfd;
+    border: solid grey;
+}
+
+i {
+    vertical-align: bottom;
+}
+ h1{
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    border: solid black;
+    width: 80%;
+    text-align: center;
+ }
+ label{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: large;
+ }
+ table{
+    border: solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+ }
+.paginacao {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.paginacao button {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.paginacao button:hover {
+  background-color: #eee;
+}
+img{
+    width: 10%;
+}
